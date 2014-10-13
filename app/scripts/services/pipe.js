@@ -52,7 +52,11 @@ angular.module('pipe', []).
 		//trim gescription from any html stuff
 
 		var getDescription = function (description) {
-			return description.replace(/<(?:.|\n)*?>/gm, '');
+			if (description) {
+				return description.replace(/<(?:.|\n)*?>/gm, '');
+			} else {
+				return 'sorry no description';
+			}
 		};
 
 		return {
