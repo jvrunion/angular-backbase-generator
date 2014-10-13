@@ -1,0 +1,43 @@
+.glyphicon-refresh-animate {
+	-animation: spin .7s infinite linear;
+	-webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+	from { -webkit-transform: rotate(0deg);}
+	to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+	from { transform: scale(1) rotate(0deg);}
+	to { transform: scale(1) rotate(360deg);}
+}
+.backbase-app {
+	.animate-show p {
+		padding: 0;
+	}
+	.animate-show {
+		position: relative;
+		transition: all .5s ease-in-out;
+		overflow-y: hidden;
+		max-height: 500px;
+		clear: both;
+		padding: 0;
+	}
+	.list-group-item {
+		overflow: hidden;
+		cursor: pointer;
+	}
+	.animate-show.ng-hide {
+	  	max-height: 0;
+	  	padding: 0;
+	}
+
+	.animate-show.ng-hide-remove,
+	.animate-show.ng-hide-add {
+		display: block!important;
+	}
+	h1.col-xs-10 {
+		font-size: 1.2em;
+	}
+}

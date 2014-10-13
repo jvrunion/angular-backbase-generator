@@ -1,0 +1,18 @@
+<div class="loader" ng-show="!count" >
+	<span class="glyphicon glyphicon-refresh glyphicon-refresh-animate"></span>
+</div>
+<ul ng-show="count" class="list-group">
+	<li ng-repeat="item in list" ng-click="toggleSummary(item)" class="list-group-item">
+		<h1 class="list-group-item-heading col col-sm-10 col-md-10 col-xs-10 pull-right">{{item.title}}</h1>
+		<span class="thumbnail col col-md-2 col-sm-2 col-xs-2 pull-left">
+			<img class="img-responsive"
+				ng-src="{{item.imgUrl}}"
+				err-src="images/a9y5kaLO.png"
+				alt="" />
+		</span>
+		<div class="animate-show col col-md-12 col-sm-12" ng-show="item.full">
+			<p class="list-group-item-text col col-md-12 col-sm-12" >{{item.description}}</p>
+			<a href="{{item.link}}" ng-click="$event.stopPropagation();" target="_blank">see article <i class="fa fa-external-link"></i></a>
+		</div>
+	</li>
+</ul>
