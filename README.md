@@ -34,6 +34,8 @@ https://github.com/jvrunion/angular-backbase-generator.git
 	
 	$ grunt test
 
+[Karma](http://karma-runner.github.io/0.12/index.html) is integrated with [Gruntjs](http://www.gruntjs.com) for testing
+
 ####Start the server:
 
 	$ grunt serve
