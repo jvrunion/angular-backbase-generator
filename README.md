@@ -1,27 +1,31 @@
 
 
-## Getting Started
+## About
 
-To run this properly You have on your machine at least:
+###Pre-Requisites:
 
--npm
--bower
--grunt
+*npm
+*bower
+*grunt
 
-	cd backbase-angular
-	npm install
-	bower install
+####Clone
+
+	https://github.com/jvrunion/angular-backbase-generator.git
+
+	$ cd backbase-angular
+	$ npm install
+	$ bower install
 
 Than run tests:
 	
-	grunt test
+	$ grunt test
 
 Serve the development state of project
 
-	grunt serve
+	$ grunt serve
 
 Or build project and execute index.html file from dist directory
 
-	grunt build
+	$ grunt build
 
 
