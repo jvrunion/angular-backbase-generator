@@ -1,9 +1,9 @@
 
 
-## About
+## About this generator
 
-###Backbase
-#####Create modern business applications.
+###Backbase 
+#####Customer Experience Platform.
 
 * Widget-based with a modern web oriented architecture.
 * Including Launchpad: Ready to go blueprints & apps.
@@ -20,9 +20,9 @@ HTML is great for declaring static documents, but it falters when we try to use 
 
 ####Pre-Requisites:
 
-* [npm](https://www.npmjs.com/)
-* [bower](http://bower.io)
-* [grunt](http://gruntjs.com)
+* [Node Package Manager](https://www.npmjs.com/)
+* [Bower Component Manager](http://bower.io)
+* [Grunt Task Runner](http://gruntjs.com)
 
 ####Clone:
 
@@ -38,7 +38,7 @@ https://github.com/jvrunion/angular-backbase-generator.git
 	
 	$ grunt test
 
-[Karma](http://karma-runner.github.io/0.12/index.html) is integrated with [Gruntjs](http://www.gruntjs.com) for testing
+The generator comes pre-installed with [Karma](http://karma-runner.github.io/0.12/index.html) is integrated with [Grunt](http://www.gruntjs.com) for testing
 
 ####Server:
 
