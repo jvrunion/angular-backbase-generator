@@ -16,6 +16,28 @@
 
 HTML is great for declaring static documents, but it falters when we try to use it for declaring dynamic views in web-applications. AngularJS lets you extend HTML vocabulary for your application. The resulting environment is extraordinarily expressive, readable, and quick to develop.
 
+#####Preset Options:
+
+######Controller
+
+Example:
+
+	angular.module('myMod').controller('UserCtrl', function ($scope) {
+	  // ...
+	});
+
+######Directive
+
+	angular.module('myMod').directive('myDirective', function () {
+	  return {
+	    template: '<div></div>',
+	    restrict: 'E',
+	    link: function postLink(scope, element, attrs) {
+	      element.text('this is the myDirective directive');
+	    }
+	  };
+	});
+
 [More Info](https://angularjs.org/)
 
 ####Pre-Requisites:
