@@ -1,9 +1,9 @@
 
 
-### About
+## About
 
 ####Backbase
-Create modern business applications.
+#####Create modern business applications.
 
 * Widget-based with a modern web oriented architecture.
 * Including Launchpad: Ready to go blueprints & apps.
@@ -12,11 +12,11 @@ Create modern business applications.
 [More Info](http://www.backbase.com/home)
 
 ####Angular
-Why AngularJS?
+#####Why AngularJS?
 
 HTML is great for declaring static documents, but it falters when we try to use it for declaring dynamic views in web-applications. AngularJS lets you extend HTML vocabulary for your application. The resulting environment is extraordinarily expressive, readable, and quick to develop.
 
-[More Info](http://www.angularjs.com)
+[More Info](https://angularjs.org/)
 
 ####Pre-Requisites:
 
@@ -40,11 +40,11 @@ https://github.com/jvrunion/angular-backbase-generator.git
 
 [Karma](http://karma-runner.github.io/0.12/index.html) is integrated with [Gruntjs](http://www.gruntjs.com) for testing
 
-####Start the server:
+####Server:
 
 	$ grunt serve
 
-####Dist Build
+####Build
 
 	$ grunt build
 
