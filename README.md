@@ -1,12 +1,12 @@
 
 
-# About
+### About
 
-##Pre-Requisites:
+####Pre-Requisites:
 
-*npm
-*bower
-*grunt
+* npm
+* bower
+* grunt
 
 ####Clone:
 
