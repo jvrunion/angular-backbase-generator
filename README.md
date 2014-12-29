@@ -46,7 +46,7 @@ The generator comes pre-installed with [Karma](http://karma-runner.github.io/0.1
 
 HTML is great for declaring static documents, but it falters when we try to use it for declaring dynamic views in web-applications. AngularJS lets you extend HTML vocabulary for your application. The resulting environment is extraordinarily expressive, readable, and quick to develop.
 
-####Preset Options:
+###Angular Presets:
 
 #####Controller
 
@@ -85,5 +85,19 @@ Example:
 	angular.module('backbaseApp.pipeApi', ['ngResource'])
 		// ...
 	});
+
+###Bower Components
+
+The following packages are always installed by the generator:
+
+* angular
+* angular-mocks
+* angular-scenario
+* angular-animate
+* angular-aria
+* angular-cookies
+* angular-messages
+* angular-resource
+* angular-sanitize
 
 [More Info](https://angularjs.org/)
