@@ -4,9 +4,9 @@
 
 ##Pre-Requisites:
 
-###npm
-###bower
-###grunt
+*npm
+*bower
+*grunt
 
 ####Clone:
 
