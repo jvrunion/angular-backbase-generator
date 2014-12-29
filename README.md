@@ -1,5 +1,4 @@
-backbase angular
-============
+
 
 ## Getting Started
 
