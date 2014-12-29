@@ -8,23 +8,22 @@
 *bower
 *grunt
 
-####Clone
-
-	https://github.com/jvrunion/angular-backbase-generator.git
+####Clone:
+```https://github.com/jvrunion/angular-backbase-generator.git```
 
 	$ cd backbase-angular
 	$ npm install
 	$ bower install
 
-Than run tests:
+####Testing:
 	
 	$ grunt test
 
-Serve the development state of project
+####Start the server:
 
 	$ grunt serve
 
-Or build project and execute index.html file from dist directory
+####Dist Build
 
 	$ grunt build
 
