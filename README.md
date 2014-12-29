@@ -58,6 +58,8 @@ Example:
 
 #####Directive
 
+Example:
+
 	angular.module('myMod').directive('myDirective', function () {
 	  return {
 	    template: '<div></div>',
@@ -70,8 +72,18 @@ Example:
 
 #####Services
 
+Example:
+
 	angular.module('myMod').service('myService', function () {
 	  // ...
+	});
+
+#####Resources
+
+Example:
+
+	angular.module('backbaseApp.pipeApi', ['ngResource'])
+		// ...
 	});
 
 [More Info](https://angularjs.org/)
