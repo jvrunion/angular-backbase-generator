@@ -1,4 +1,34 @@
 
+##Pre-Requisites:
+
+* [Node Package Manager](https://www.npmjs.com/)
+* [Bower Component Manager](http://bower.io)
+* [Grunt Task Runner](http://gruntjs.com)
+
+####Clone:
+
+```
+https://github.com/jvrunion/angular-backbase-generator.git
+```
+
+	$ cd backbase-angular
+	$ npm install
+	$ bower install
+
+####Testing:
+	
+	$ grunt test
+
+The generator comes pre-installed with [Karma](http://karma-runner.github.io/0.12/index.html) is integrated with [Grunt](http://www.gruntjs.com) for testing
+
+####Server:
+
+	$ grunt serve
+
+####Build
+
+	$ grunt build
+
 
 ## About this generator
 
@@ -39,35 +69,3 @@ Example:
 	});
 
 [More Info](https://angularjs.org/)
-
-####Pre-Requisites:
-
-* [Node Package Manager](https://www.npmjs.com/)
-* [Bower Component Manager](http://bower.io)
-* [Grunt Task Runner](http://gruntjs.com)
-
-####Clone:
-
-```
-https://github.com/jvrunion/angular-backbase-generator.git
-```
-
-	$ cd backbase-angular
-	$ npm install
-	$ bower install
-
-####Testing:
-	
-	$ grunt test
-
-The generator comes pre-installed with [Karma](http://karma-runner.github.io/0.12/index.html) is integrated with [Grunt](http://www.gruntjs.com) for testing
-
-####Server:
-
-	$ grunt serve
-
-####Build
-
-	$ grunt build
-
-
