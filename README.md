@@ -1,15 +1,18 @@
 
 
-## About
+# About
 
-###Pre-Requisites:
+##Pre-Requisites:
 
-*npm
-*bower
-*grunt
+###npm
+###bower
+###grunt
 
 ####Clone:
-```https://github.com/jvrunion/angular-backbase-generator.git```
+
+```
+https://github.com/jvrunion/angular-backbase-generator.git
+```
 
 	$ cd backbase-angular
 	$ npm install
