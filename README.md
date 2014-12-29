@@ -2,11 +2,23 @@
 
 ### About
 
+####Backbase
+Create modern business applications.
+
+* Widget-based with a modern web oriented architecture.
+* Including Launchpad: Ready to go blueprints & apps.
+* Integrates with any system or application.
+
+####Angular
+Why AngularJS?
+
+HTML is great for declaring static documents, but it falters when we try to use it for declaring dynamic views in web-applications. AngularJS lets you extend HTML vocabulary for your application. The resulting environment is extraordinarily expressive, readable, and quick to develop.
+
 ####Pre-Requisites:
 
-* npm
-* bower
-* grunt
+* [npm](https://www.npmjs.com/)
+* [bower](http://bower.io)
+* [grunt](http://gruntjs.com)
 
 ####Clone:
 
