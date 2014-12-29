@@ -4,16 +4,12 @@
 
 To run this properly You have on your machine at least:
 
-- npm
-- bower
-- grunt
-
-	git clone git@github.com:arkadiuszputko/backbase-angular.git
+-npm
+-bower
+-grunt
 
 	cd backbase-angular
-
 	npm install
-
 	bower install
 
 Than run tests:
